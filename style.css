@@ -49,18 +49,19 @@
     border: 1px solid black;
     padding: 3px 10px 3px 10px;
     background-color: rgba(218, 179, 96, 0.884);
+    border-radius: 10px;
+    font-family: sans-serif;
 }
 
-#btnlogin:hover {
+#btnlogin:hover, #btnregister:hover {
+    cursor: pointer;
     border: 1px solid #d5cfcf;
     background-color: #191919;
-    color: #d5cfcf;
+    color: #d5cfcf; 
 }
 
-#btnregister:hover {
-    border: 1px solid #d5cfcf;
-    background-color: #191919;
-    color: #d5cfcf;
+#btnlogin:focus, #btnregister:focus, #btn-booking:focus {
+    outline: 0;
 }
 
 #btn-booking {
@@ -383,6 +384,16 @@ li #p3 {
      padding-bottom: 10px;
  }
 
+ /* ---------------------------------------------css page rooms---------------------------------------- */
+ /* .room-me {
+     margin-top:100px;
+     padding-top: 200px;
+ } */
+ .show-me ul li img:hover {
+    transform: scaleY(1);
+    transform: scale(1.1);
+ }
+
  /*------------------------------------------ css page photo gallery----------------------------------- */
 
 .content-photo {
@@ -405,7 +416,7 @@ li #p3 {
     transform: scale(1.1);
 }
 
-/* -----------------------------------------test------------------ */
+/* -----------------------------------------index page , secsion------------------ */
 body{
     margin: 0;
     padding: 0;
